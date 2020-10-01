@@ -1,3 +1,5 @@
+# IMPORTING MODULES
+
 from flask import Flask,render_template,url_for,request,flash,session,redirect
 from flask_material import Material
 import folium
@@ -422,7 +424,7 @@ def delete_profile(id):
 
 
 
-
+""" ================About Us , Feedback & other Basic App Routes=========<START>========================="""
 
 @app.route("/about_us")
 def about_us():
@@ -432,6 +434,7 @@ def about_us():
 def feedback():
     return render_template("feedbaack.html")
 
+""" ================About Us , Feedback & other Basic App Routes=========<END>========================="""
 # RUNNING FLASK APP
 if __name__ == "__main__":
     app.run(debug=True)
