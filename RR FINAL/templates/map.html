@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_491e66e2d82c432da2135421fc27b3c8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_491e66e2d82c432da2135421fc27b3c8" ></div>
+        
+</body>
+<script>    
+    
+            var map_491e66e2d82c432da2135421fc27b3c8 = L.map(
+                "map_491e66e2d82c432da2135421fc27b3c8",
+                {
+                    center: [18.9387711, 72.8353355],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1d503a4daf464bec8f4ee6af8b141265 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_491e66e2d82c432da2135421fc27b3c8);
+        
+    
+            var marker_e9c879d2352044568d848b5621f85180 = L.marker(
+                [25.0, 72.0],
+                {}
+            ).addTo(map_491e66e2d82c432da2135421fc27b3c8);
+        
+    
+            var icon_6390f710111440ba9c07c1e9105e4e71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e9c879d2352044568d848b5621f85180.setIcon(icon_6390f710111440ba9c07c1e9105e4e71);
+        
+    
+        var popup_798e6e3d20cb41b18d54057241f22165 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98d9e1aefdd847f58bd8ab3cfccc3282 = $(`<div id="html_98d9e1aefdd847f58bd8ab3cfccc3282" style="width: 100.0%; height: 100.0%;"><strong>Login To See more details</strong></div>`)[0];
+            popup_798e6e3d20cb41b18d54057241f22165.setContent(html_98d9e1aefdd847f58bd8ab3cfccc3282);
+        
+
+        marker_e9c879d2352044568d848b5621f85180.bindPopup(popup_798e6e3d20cb41b18d54057241f22165)
+        ;
+
+        
+    
+    
+            marker_e9c879d2352044568d848b5621f85180.bindTooltip(
+                `<div>
+                     Click To See details
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53b5c83a0212441982b8408547b9b855 = L.marker(
+                [28.0, 72.0],
+                {}
+            ).addTo(map_491e66e2d82c432da2135421fc27b3c8);
+        
+    
+            var icon_fe8e823013b94a80be0e20fc9eeda4aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_53b5c83a0212441982b8408547b9b855.setIcon(icon_fe8e823013b94a80be0e20fc9eeda4aa);
+        
+    
+        var popup_6cd94548b37441c99756fdf5563efae9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29fae006dd7d40758b23c3032ef6fa4d = $(`<div id="html_29fae006dd7d40758b23c3032ef6fa4d" style="width: 100.0%; height: 100.0%;"><strong>Login To See more details</strong></div>`)[0];
+            popup_6cd94548b37441c99756fdf5563efae9.setContent(html_29fae006dd7d40758b23c3032ef6fa4d);
+        
+
+        marker_53b5c83a0212441982b8408547b9b855.bindPopup(popup_6cd94548b37441c99756fdf5563efae9)
+        ;
+
+        
+    
+    
+            marker_53b5c83a0212441982b8408547b9b855.bindTooltip(
+                `<div>
+                     Click To See details
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ff51760199342da87620f2358f37c18 = L.marker(
+                [23.0, 72.0],
+                {}
+            ).addTo(map_491e66e2d82c432da2135421fc27b3c8);
+        
+    
+            var icon_7f7f5c01d69b4b0095a2cdfc57e1041a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3ff51760199342da87620f2358f37c18.setIcon(icon_7f7f5c01d69b4b0095a2cdfc57e1041a);
+        
+    
+        var popup_9141d79c51a34b3ea7c52aed0026fba8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e176a0a70314014bb745c10049b3a4f = $(`<div id="html_1e176a0a70314014bb745c10049b3a4f" style="width: 100.0%; height: 100.0%;"><strong>Login To See more details</strong></div>`)[0];
+            popup_9141d79c51a34b3ea7c52aed0026fba8.setContent(html_1e176a0a70314014bb745c10049b3a4f);
+        
+
+        marker_3ff51760199342da87620f2358f37c18.bindPopup(popup_9141d79c51a34b3ea7c52aed0026fba8)
+        ;
+
+        
+    
+    
+            marker_3ff51760199342da87620f2358f37c18.bindTooltip(
+                `<div>
+                     Click To See details
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

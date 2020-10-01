@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAP</title>
+</head>
+<body>
+    <h3>HERE IS THE MAP FOR UNREGISTERD USER</h3>
+    <form action="/search_map" method="post">
+    <input type="text" name="address" placeholder="SEARCH ANY CITY NAME.....">
+    <button type="submit">SEARCH</button>
+    </form>
+    <iframe src="{{url_for('show_map')}}" frameborder="0" style="width: 100%; height: 100vh;">MAP</iframe>
+    <h1>HELLO</h1>
+</body>
+</html>
